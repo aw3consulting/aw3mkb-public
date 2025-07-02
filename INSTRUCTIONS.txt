@@ -1,0 +1,11 @@
+AW3 GitHub Pages Public Deployment Instructions
+
+1. This repository must remain PUBLIC for GitHub Pages to build and host the site.
+2. All internal and system-governed content is managed in a separate PRIVATE repo.
+3. Content in this repo is approved via tag-level filtering (Visibility: Public).
+4. Do not manually add files that reference internal Systems, Phases, Modes, or Control Index elements.
+
+Deployment is automatic if using GitHub Actions. If deploying manually:
+  - Push to the default branch (e.g., main)
+  - GitHub Pages will deploy from root or /docs depending on config
+
