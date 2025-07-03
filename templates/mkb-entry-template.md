@@ -1,0 +1,1 @@
+Placeholder content for mkb-entry-template.md

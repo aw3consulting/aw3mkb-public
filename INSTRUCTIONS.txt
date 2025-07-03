@@ -1,8 +1,1 @@
-This GitHub Pages repo serves public-facing AW3 Knowledge Base content only.
-
-Deployment Rules:
-1. Only files tagged with `visibility: Public` in YAML frontmatter are surfaced.
-2. All assets must reside in /docs/, /pages/, or /sections/ unless templated.
-3. CI will block invalid deployments via `public-surfacing-validation.yml`.
-
-No collaboration is permitted.
+Placeholder content for INSTRUCTIONS.txt

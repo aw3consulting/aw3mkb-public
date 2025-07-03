@@ -1,0 +1,1 @@
+Placeholder content for public-doc-template.md

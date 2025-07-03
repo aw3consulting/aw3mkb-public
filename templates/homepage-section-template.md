@@ -1,0 +1,1 @@
+Placeholder content for homepage-section-template.md
