@@ -1,5 +1,6 @@
-title: AW3 Consulting Public Knowledge
-description: Public resources and consultation pathways from AW3 Master Knowledge Base.
-baseurl: "" 
-url: "https://aw3consulting.github.io"
-theme: minima
+title: AW3 Master Knowledge Base
+baseurl: ""
+url: "https://aw3consulting.github.io/aw3mkb-public"
+theme: jekyll-theme-minimal
+permalink: pretty
+markdown: kramdown

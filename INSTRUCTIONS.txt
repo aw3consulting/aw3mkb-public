@@ -1,11 +1,8 @@
-AW3 GitHub Pages Public Deployment Instructions
+This GitHub Pages repo serves public-facing AW3 Knowledge Base content only.
 
-1. This repository must remain PUBLIC for GitHub Pages to build and host the site.
-2. All internal and system-governed content is managed in a separate PRIVATE repo.
-3. Content in this repo is approved via tag-level filtering (Visibility: Public).
-4. Do not manually add files that reference internal Systems, Phases, Modes, or Control Index elements.
+Deployment Rules:
+1. Only files tagged with `visibility: Public` in YAML frontmatter are surfaced.
+2. All assets must reside in /docs/, /pages/, or /sections/ unless templated.
+3. CI will block invalid deployments via `public-surfacing-validation.yml`.
 
-Deployment is automatic if using GitHub Actions. If deploying manually:
-  - Push to the default branch (e.g., main)
-  - GitHub Pages will deploy from root or /docs depending on config
-
+No collaboration is permitted.
